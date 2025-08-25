@@ -48,13 +48,13 @@ body {
 
 /* 4. Estilo de imagem do Card  */
 
-.card_image-container{
+.card_image-container img{
     width: 100%;
     height: 200px; 
     /*Altura fixa para ao container da imagem*/
    
 }
-.card_image{
+.card_image-container {
     width: 100%;
     height: 100%;
     object-fit: cover;/*Cobre todo o container mantendo a proporção/ garante que a imagem cubra o espaço sem distorcer */
